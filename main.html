@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Wedding Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+
+    <!-- Main Page Layout -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Section: Wedding Destination Points -->
+            <div class="col-md-8">
+                <div class="destination-box">
+                    <h3>Top Wedding Destinations</h3>
+                    <div class="destination-list">
+                        <div class="destination-card">
+                            <img src="paris.jpeg" alt="Destination 1">
+                            <h4>Paris</h4>
+                            <a href="decor.html?dest=paris" class="btn btn-primary">Book Now</a>
+                        </div>
+                        <div class="destination-card">
+                            <img src="bali.jpeg" alt="Destination 2">
+                            <h4>Bali</h4>
+                            <a href="decor.html?dest=bali" class="btn btn-primary">Book Now</a>
+                        </div>
+                        <div class="destination-card">
+                            <img src="vience.jpeg" alt="Destination 3">
+                            <h4>Venice</h4>
+                            <a href="decor.html?dest=venice" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section: Login Form -->
+            <div class="col-md-4 login-section">
+                <h2>Welcome to the Wedding Planner</h2>
+                <form id="loginForm" action="javascript:void(0);">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <div id="error-message" class="text-danger mt-2" style="display:none;">Please fill out both fields!</div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- External JS for Validation -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="mainscript.js"></script>
+
+</body>
+</html>

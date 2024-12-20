@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Wedding Destination</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center my-5">Book Your Wedding Destination</h1>
+
+        <div id="destination-info" class="row">
+            <!-- Content will be dynamically loaded here based on the URL parameter -->
+        </div>
+
+        <div class="booking-form">
+            <h2 class="text-center my-4">Wedding Booking Form</h2>
+            <form id="bookingForm" action="javascript:void(0);">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Your Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="date">Wedding Date</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Booking</button>
+            </form>
+            <div id="booking-error" class="text-danger mt-3" style="display:none;">Please fill out all fields!</div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="decorscript.js"></script>
+</body>
+</html>

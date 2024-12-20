@@ -1,0 +1,18 @@
+.container {
+    margin-top: 50px;
+}
+
+.invite-box {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guest-list {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+}

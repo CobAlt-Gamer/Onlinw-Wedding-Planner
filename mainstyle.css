@@ -1,0 +1,127 @@
+/* Apply a royal, elegant background with a deep purple hue */
+body {
+    background: linear-gradient(to right, #122fbd, #8e44ad);
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+.container-fluid {
+    margin-top: 50px;
+}
+
+h3, h4, h2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+/* Styling for Wedding Destination Box */
+.destination-box {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+    font-size: 3em;
+    color: #9b59b6;
+    margin-bottom: 40px;
+}
+
+/* Flexbox Layout for destination images */
+.destination-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.destination-card {
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: scale(1.1);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card h4 {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #9b59b6;
+}
+
+/* Styling for the Login Section */
+.login-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.login-section h2 {
+    font-size: 2.5em;
+    color: #6a0dad;
+    margin-bottom: 40px;
+}
+
+/* Form Styling */
+.form-group label {
+    font-weight: bold;
+    color: #6a0dad;
+}
+
+.form-control {
+    border: 2px solid #9b59b6;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #9b59b6;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8e44ad;
+}
+
+/* Error Message Styling */
+#error-message {
+    font-size: 1.1em;
+    color: #e74c3c;
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .destination-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

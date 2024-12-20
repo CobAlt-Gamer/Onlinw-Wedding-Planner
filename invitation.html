@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Planner - Invitation Page</title>
+    <link rel="stylesheet" href="css/invitationstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center my-5">Add Guests to Your Invitation</h2>
+        <div class="invite-box">
+            <form id="guestForm">
+                <div class="form-group">
+                    <label for="phone">Enter Guest's Mobile Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter mobile number" required>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">Add Guest</button>
+            </form>
+
+            <div class="guest-list">
+                <h4>Added Guests:</h4>
+                <ul id="guestList"></ul>
+            </div>
+
+            <div class="form-group">
+                <label for="destination">Select Wedding Destination</label>
+                <select class="form-control" id="destination" required>
+                    <option value="Beach Wedding">Beach Wedding</option>
+                    <option value="Garden Wedding">Garden Wedding</option>
+                    <option value="Castle Wedding">Castle Wedding</option>
+                </select>
+            </div>
+
+            <button id="sendInvitation" class="btn btn-primary btn-block">Send Invitations</button>
+        </div>
+    </div>
+
+    <script src="js/invitscript.js"></script>
+</body>
+</html>
