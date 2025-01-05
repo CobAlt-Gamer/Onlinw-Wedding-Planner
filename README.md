@@ -2,9 +2,6 @@
 
 Welcome to Wedding Planner, a project built using Java with Spring Boot and data JPA. This project serves as an intermediator between Users and Vendors in the wedding services industry. Vendors can list their services, and users can browse and purchase these services through the mobile app or the Admin panel.
 
-## Research & Information Gathering
-**Google Drive:** [Documentation](https://drive.google.com/drive/folders/1iv26Lg4i94c93Slx6pjPxXmwEFX5_wP9?usp=sharing)
-
 ## Figma Prototype
 **Wedding Planner Prototype:** [See Prototype](https://www.figma.com/proto/hasq7XVjKKpaQUovVVX9sg/Wedding-Planning-App?node-id=0-1)
 
