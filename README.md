@@ -84,6 +84,6 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 
 ## Contact
 
-For any inquiries or support, please contact [Smit Joshi](https://www.linkedin.com/in/smit-joshi814/).
+For any inquiries or support, please contact [Mehul Tandon]().
 
 Make Your Wedding Memorable 🎉! 🚀
