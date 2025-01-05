@@ -45,7 +45,7 @@ Welcome to Wedding Planner, a project built using Java with Spring Boot and data
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/smit-joshi814/wedding-planner.git`
+1. Clone the repository: `git clone https://github.com/CobAlt-Gamer/Onlinw-Wedding-Planner.git`
 2. Set up the MySQL database and configure the application properties accordingly.
 3. Set up `Imagekit.io` API Keys
 4. set up `email credentials` use google account to create app password & use that as credentials
